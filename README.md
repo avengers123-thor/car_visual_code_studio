@@ -1,2 +1,2 @@
-# car_visual_code_studio
-a project from visual code studio
+# p5.play-boilerplate
+Boiler plate for p5.play
