@@ -1,4 +1,3 @@
-
 var car, wall;
 var speed, weight;
 
@@ -31,23 +30,20 @@ function draw() {
       if (deformation>180)
       {
         car.shapeColor="red";
-        car.velocityX=0;
       }
 
       if (deformation<180 && deformation>100)
       {
         car.shapeColor="yellow";
-        car.velocityX=0;
       }
 
       if(deformation<100)
       {
         car.shapeColor="green";
-        car.velocityX=0;
       }
 
     }
-  
+
  
   drawSprites();
 }
